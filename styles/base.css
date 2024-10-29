@@ -20,6 +20,8 @@ body {
     line-height: 1.5;
     color: #000000;
     background-color: #ffffff;
+    max-width: 125rem;
+    margin: 0 auto;
 }
 
 h1,
@@ -45,6 +47,7 @@ h3 {
 
 p {
     margin: 0 0 1.5em;
+    font-family: 'comfortaa', 'sans-serif';
 }
 
 

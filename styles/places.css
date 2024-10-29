@@ -53,7 +53,7 @@ h1{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 500px 1fr;
-        height: 90vh;
+        height: calc(100vh - 72px);
     }
 
     
@@ -134,7 +134,6 @@ h1{
 .card p{
     color: #000000;
     margin: 1rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (min-width:50em){
@@ -143,7 +142,7 @@ h1{
         justify-items: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr auto auto 1fr;
-        max-width: 125rem;
+        border-bottom:solid #071c34;
         margin: 0 auto;
         padding: 4.5rem 1rem;
     }
@@ -161,10 +160,10 @@ h1{
     }
     .card .side-grid{
         display: grid;
-        gap: 0.5rem;
+        gap: 1rem;
         padding: 2rem;
         margin: 0.5rem;
-        width: max-content;
+        max-width: 31rem;
         background-color: #022859;
         height: max-content;
     }
@@ -172,19 +171,13 @@ h1{
     .Destination{
         grid-column: 2/3;
         grid-row: 2/4;
-        grid-template-columns: 9.375rem 12.5rem;
-        grid-template-rows: 11.2813rem 15.4406rem;
+        grid-template-columns: calc(45%-8px) calc(55%-8px);
+        grid-template-rows: calc(45%-8px) calc(55% - 8px);
     }
     .Destination .sgnp{
         grid-row: 1/span 2;
         grid-column: 2/3;
-        min-height: 27.2219rem;
     }
-
-    .sgnp img{
-        height: 24rem;
-    }
-
     .Destination .vt-station{
         grid-row:1/2;
     }
@@ -192,39 +185,21 @@ h1{
         border: none;
         margin: 0;
         box-shadow: none;
+        height: 100%;
+        width: 100%;
+        max-width: none;
     }
 
+    .card img{
+        height: calc(100% - 32px);
+        width: 100%;
+        object-fit: cover;
+    }
     .travels{
         grid-row: 2/4;
         grid-column: 1/2;
-        grid-template-columns: 12.5rem 11.0625rem;
-        grid-template-rows: 10.4063rem  17.4063rem;
+        grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+        grid-template-rows: calc(40% -8px) calc(60%-8px);
         align-items: start;
     }
-
-    .taxi-travel img{
-        height: 15rem;
-    }
-
-    .travels .bus-travel{
-        height: 10.4063rem;
-    }
-
-    .bus-travel img{
-        height: 8rem;
-    }
-}
-
-/*SECTION CONTACT ME
-------------------------*/
-.contact-links{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0;
-
-}
-
-.contact-links li{
-    display: inline-block;
 }

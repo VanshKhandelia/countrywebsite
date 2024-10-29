@@ -1,0 +1,38 @@
+h1{
+  width: max-content;
+  margin: 1rem auto;
+}
+
+table {
+  table-layout: fixed;
+  border: 3px solid #000050;
+  width: 80%;
+  min-width: 17rem;
+  margin: 1rem auto;
+  padding: 0;
+}
+th,
+td {
+  padding: 20px;
+  border: 1px solid #000050;
+  background-color: #f5f5ff;
+}
+thead th{
+  background-color: #000050;
+  color: azure;
+}
+.full-row{
+  background-color: #b8b8f7;
+}
+table a{
+  color: #04047d;
+}
+table a:visited{
+  color: #04047d;
+}
+
+@media (min-width: 50em){
+  main{
+    margin-top: 4.5rem ;
+  }
+}
