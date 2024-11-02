@@ -8,6 +8,7 @@ table {
   border: 3px solid #000050;
   width: 80%;
   min-width: 17rem;
+  max-width: 40rem;
   margin: 1rem auto;
   padding: 0;
 }
@@ -30,6 +31,8 @@ table a{
 table a:visited{
   color: #04047d;
 }
+
+
 
 @media (min-width: 50em){
   main{

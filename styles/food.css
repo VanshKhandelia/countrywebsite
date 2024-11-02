@@ -42,6 +42,7 @@
     text-align: center;
 }
 
+/*desktop view for the banner section*/
 @media (min-width: 50em){
     .banner-background{
         margin-top: 4.5rem;
@@ -67,7 +68,7 @@
 }
 .street-food article{
     margin: 0.5rem;
-    background-color: #A69292;
+    background-color: #f37d47;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +97,7 @@
     text-align: center;
 }
 
+/*Desktop View for the Street Food Section*/
 @media (min-width: 50em){
     .street-food{
         display: grid;
@@ -150,7 +152,6 @@
         bottom: 0;
         margin: 0;
     }
-
 }
 
 
@@ -183,6 +184,7 @@
     font-weight:bold;
 }
 
+/*Desktop view for the mango section*/
 @media (min-width: 50em){
     .mango{
         display: grid;
@@ -232,7 +234,7 @@
 }
 
 .restaurants article{
-    background-color: #A69292;
+    background-color: #f37d47;
     padding: 0.5rem;
     margin: 0.5rem;
 }
@@ -252,6 +254,8 @@
     height: 9.375rem;
 }
 
+
+/*Desktop View for the restaurants section*/
 @media (min-width: 50em){
     .restaurants{
         display: grid;
@@ -303,10 +307,7 @@
 
     .restaurants article:hover{
         transform: scale(1.05);
+        /*Transform syntax and use learnt by chatgpt*/
     }
-
-    
-
-
 }
 
