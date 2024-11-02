@@ -46,7 +46,7 @@
 @media (min-width: 50em){
     .banner-background{
         margin-top: 4.5rem;
-        height: calc(100vh-72px);
+        height: calc(100vh - 72px);
     }
 }
 

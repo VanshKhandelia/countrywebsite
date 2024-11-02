@@ -171,8 +171,8 @@ h1{
     .Destination{
         grid-column: 2/3;
         grid-row: 2/4;
-        grid-template-columns: calc(45%-8px) calc(55%-8px);
-        grid-template-rows: calc(45%-8px) calc(55% - 8px);
+        grid-template-columns: calc(45% - 8px) calc(55% - 8px);
+        grid-template-rows: calc(45% - 8px) calc(55% - 8px);
     }
     .Destination .sgnp{
         grid-row: 1/span 2;
@@ -199,7 +199,7 @@ h1{
         grid-row: 2/4;
         grid-column: 1/2;
         grid-template-columns: calc(50% - 8px) calc(50% - 8px);
-        grid-template-rows: calc(40% -8px) calc(60%-8px);
+        grid-template-rows: calc(40% - 8px) calc(60% - 8px);
         align-items: start;
     }
 }
